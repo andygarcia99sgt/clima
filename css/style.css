@@ -1,0 +1,46 @@
+*{
+  margin: 0 !important;
+}
+.fondo1 {
+  background: linear-gradient(90deg,rgba(0,0,0,.3),rgba(0,0,0,.3)), url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1805/Beautiful-sunset-sky-clouds-dusk_1920x1200.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+}
+.fondo1 p {
+  color: #fff;
+  font-size: 180px;
+  font-family: "Edwardian Script ITC";
+  text-transform: capitalize;
+  text-align: center;
+  padding-top:12%;
+  border-bottom: solid 2px #fff;
+  text-shadow: 3px 3px 3px #000;
+}
+.fondo2 {
+  background: linear-gradient(90deg,rgba(0,0,0,.5),rgba(0,0,0,.5)), url(https://i.pinimg.com/originals/61/76/5e/61765e0c6a72062468e87013f0394d31.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  padding-top:15%;
+}
+input[type="text"]{
+  font-size: 66px;
+}
+button {
+  background: #48BD88;
+  border:none;
+  padding: 15px;
+  width: 80px;
+  font-size: 20px;
+  color: #fff;
+  transition: 1s;
+}
+button:hover {
+  color: #000;
+}
